@@ -18,3 +18,20 @@ var buttonA = document.getElementById("a");
 var buttonB = document.getElementById("b");
 var buttonC = document.getElementById("c");
 var buttonD = document.getElementById("d");
+
+// Quiz question object
+var quizQuestions = [{
+    question: "How many elements can you apply an 'ID' attribute to?",
+    choiceA: "As many as you want",
+    choiceB: "3",
+    choiceC: "1",
+    choiceD: "128",
+    correctAnswer: "c"},
+  {
+    question: "What does DOM stand for?",
+    choiceA: "Document Object Model",
+    choiceB: "Display Object Management",
+    choiceC: "Digital Ordinance Model",
+    choiceD: "Desktop Oriented Mode",
+    correctAnswer: "a"},
+   {
