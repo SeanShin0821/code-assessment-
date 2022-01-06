@@ -123,7 +123,6 @@ function showScore(){
 }
 
 // On click of the submit button, we run the function highscore that saves and stringifies the array of high scores already saved in local stoage
-// as well as pushing the new user name and score into the array we are saving in local storage. Then it runs the function to show high scores.
 submitScoreBtn.addEventListener("click", function highscore(){
     
     
@@ -214,5 +213,5 @@ function checkAnswer(answer){
     }
 }
 
-// This button starts the quiz!
+// This button starts the quiz
 startQuizButton.addEventListener("click",startQuiz);
